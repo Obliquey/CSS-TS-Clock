@@ -39,9 +39,28 @@ body{
     background: black;
     position: absolute;
     top: 50%;
+    right: 50%;
     border-radius: 5px;
     transform-origin: right;
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.hour-hand {
+    background-color: red;
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform-origin: right;
+}
+
+.min-hand {
+    background-color: green;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform-origin: right;
 }

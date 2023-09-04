@@ -20,7 +20,7 @@ function setClock() {
     // I need to translate each of these numbers to the 360deg's of the clock.
     const secondsDeg = (seconds / 60) * 360;
     const minDeg = (min / 60) * 360;
-    const hourDeg = (hour / 24) * 360;
+    const hourDeg = (hour / 12) * 360;
     moveSecHand(secondsDeg);
     moveMinHand(minDeg);
     moveHourHand(hourDeg);
